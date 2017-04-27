@@ -3,10 +3,22 @@
 #
 
 # Name of your site (displayed in the header)
-name: Cycle Double Cover Adventure
+name:
+    en: Cycle Double Cover Adventure
+    ru: Время двойного покрытия циклами
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description:
+    en: Computational approach to the life of graphs
+    ru: Вычислительный подход к жизни графов
+
+index:
+    en:
+    ru: indeks.html
+
+feed:
+    en: /feed.xml
+    ru: /lenta.xml
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/gexahedron/gexahedron.github.io/master/images/K6-Petersen_duality.svg.png
@@ -18,7 +30,7 @@ avatar: https://raw.githubusercontent.com/gexahedron/gexahedron.github.io/master
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: ulyanick@gmail.com
   facebook:
   flickr:
   github: gexahedron
