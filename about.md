@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+ref: about
+lang: en
 ---
 
 Some information about you!
