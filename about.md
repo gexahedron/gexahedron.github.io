@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Even more information about me!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ulyanick@gmail.com](mailto:ulyanick@gmail.com)
