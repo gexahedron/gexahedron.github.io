@@ -287,6 +287,39 @@ footer {
     font-weight: bold;
 }
 
+input.button{
+    border:none !important;
+}
+.button{
+    display:inline-block;
+    font-weight:500;
+    font-size:16px;
+    line-height:42px;
+    font-family:'Helvetica', Arial, sans-serif;
+    width:auto;
+    white-space:nowrap;
+    height:42px;
+    margin:12px 5px 12px 0;
+    padding:0 22px;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    border:0;
+    border-radius:3px;
+    vertical-align:top;
+}
+.button span{
+    display:inline;
+    font-family:'Helvetica', Arial, sans-serif;
+    text-decoration:none;
+    font-weight:500;
+    font-style:normal;
+    font-size:16px;
+    line-height:42px;
+    cursor:pointer;
+    border:none;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
