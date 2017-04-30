@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Обо мне
+permalink: /obo-mne/
 ref: about
 lang: ru
 ---

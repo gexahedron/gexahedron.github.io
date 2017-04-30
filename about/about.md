@@ -1,5 +1,5 @@
 ---
-layout: full-width
+layout: page
 title: About
 permalink: /about/
 ref: about
