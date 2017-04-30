@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
   {% include head.html %}
-  <body>
+  <body class="full-width">
     {% include header.html %}
-    <article class="group">
+    <article>
       {{ content }}
+      {% include subscribe.html %}
+      {% include disqus.html %}
     </article>
     {% include print-footer.html %}
     {% include footer.html %}
+    {% include analytics.html %}
   </body>
 </html>

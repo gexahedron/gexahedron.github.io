@@ -14,7 +14,7 @@ description:
 
 author:
     en: Nikolay Ulyanov
-    ru: Ульянов Николай
+    ru: Николай Ульянов
 
 index:
     en:
@@ -23,6 +23,13 @@ index:
 feed:
     en: /feed.xml
     ru: /lenta.xml
+
+post:
+    template: _post.txt
+    extension: md
+page:
+    template: _page.txt
+    extension: md
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/gexahedron/gexahedron.github.io/master/images/K6-Petersen_duality.svg.png
