@@ -9,9 +9,11 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+      {% include subscribe.html %}
+      {% include disqus.html %}
     </div>
 
-    {% include footer.html %}
+     {% include footer.html %}
 
     {% include analytics.html %}
   </body>
