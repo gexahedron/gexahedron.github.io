@@ -604,12 +604,17 @@ hr.slender {
 /** MailChimp Styles **/
 
 #mc_embed_signup {
-  background: #fff;
-  clear: left;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background: $bg-color;
   font: 14px Helvetica, Arial, sans-serif;
   text-align: center;
-  width: 300px;
-  margin: 0 auto;
+  position: relative;
+  padding: 1rem 0rem 2.5rem 0rem;
 }
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 
@@ -679,20 +684,18 @@ hr.slender {
   display: block;
   font-size: 13px;
   text-transform: uppercase;
-  padding-bottom: 7px;
   color: #616161;
   font-weight: bold;
 }
 #mc_embed_signup input.email {
   display: block;
   padding: 8px 4px;
-  margin: 0 4% 10px 0;
+  margin: 0 auto;
   text-indent: 5px;
   color: #818181;
   font-size: 1.0em;
   background: #fff;
   font-weight: bold;
-  width: 100%;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -703,7 +706,7 @@ hr.slender {
 #mc_embed_signup input.email:focus {
   color: #666;
 }
-#mc_embed_signup div#mce-responses {
+#mc_embed_signup #mce-responses {
   float: left;
   top: -1.4em;
   padding: 0em .5em 0em .5em;
@@ -712,7 +715,7 @@ hr.slender {
   margin: 0 5%;
   clear: both;
 }
-#mc_embed_signup div.response {
+#mc_embed_signup .response {
   margin: 1em 0;
   padding: 1em .5em .5em 0;
   font-weight: bold;
