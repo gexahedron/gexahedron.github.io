@@ -213,7 +213,8 @@ section { padding-top: 1rem;
 ul,ol { width: 45%;
      -webkit-padding-start: 5%;
      -webkit-padding-end: 5%;
-     list-style-type: none; }
+     //list-style-type: none;
+}
 
 //li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
 
@@ -269,7 +270,7 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
                    color: $contrast-color;
                    top: 0rem; } //removed superscripting for numerical reference in sidenote
 
-p, footer, div.table-wrapper, div.mathblock{ width: 55%; }
+form, p, footer, div.table-wrapper, div.mathblock{ width: 55%; }
 
 div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' so scroll bars appear only as needed
 
@@ -347,7 +348,7 @@ header > nav.group, body footer {
 
 //nav.group a.active:before{ content:"\0003c\000a0";} // escaped unicode for the carats and then a space on active menu links
 //nav.group a.active:after{ content:"\000a0\0003e" ;}
-nav.group a.active {
+nav.group .active {
   font-weight: bold;
 }
 
@@ -604,14 +605,17 @@ hr.slender {
 /** MailChimp Styles **/
 
 #mc_embed_signup {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
   display: -webkit-flex;
-  display:         flex;
+  display: flex;
   -webkit-align-items: center;
           align-items: center;
-  -webkit-justify-content: center;
-          justify-content: center;
   background: $bg-color;
-  font: 14px Helvetica, Arial, sans-serif;
+  font-family: $sans-font;
   text-align: center;
   position: relative;
   padding: 1rem 0rem 2.5rem 0rem;
@@ -619,42 +623,30 @@ hr.slender {
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 
 #mc_embed_signup form {
-  display: block;
   position: relative;
   text-align: center;
   padding: 10px 0 10px 3%;
-}
-#mc_embed_signup h2 {
-  font-weight: bold;
-  padding: 0;
-  margin: 15px 0;
-  font-size: 1.4em;
 }
 #mc_embed_signup input {
   border: 1px solid #ababab;
   -webkit-appearance: none;
 }
-#mc_embed_signup input[type=checkbox] {
-  -webkit-appearance: checkbox;
-}
-#mc_embed_signup input[type=radio] {
-  -webkit-appearance: radio;
-}
 #mc_embed_signup input:focus {
   border-color: #799877;
 }
 #mc_embed_signup .button {
-  display: block;
   position: relative;
   background-color: #266080;
   padding: 0;
-  margin: 0 auto;
+  margin-left: 1.05em;
+  margin-right: 0.9em;
   border: 0 none;
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
+  font-family: $sans-font;
   font-size: 14px;
-  width: 140px;
+  width: 80px;
   height: 36px;
   line-height: 36px;
   font-weight: bold;
@@ -670,30 +662,21 @@ hr.slender {
   top: 2px;
   border-bottom-width: 1px;
 }
-#mc_embed_signup .small-meta {
-  font-size: 11px;
-}
-#mc_embed_signup .nowrap {
-  white-space: nowrap;
-}
 #mc_embed_signup .clear {
   clear: none;
   display: inline;
 }
 #mc_embed_signup label {
-  display: block;
   font-size: 13px;
-  text-transform: uppercase;
   color: #616161;
   font-weight: bold;
 }
 #mc_embed_signup input.email {
-  display: block;
+  font-family: $sans-font;
   padding: 8px 4px;
-  margin: 0 auto;
+  margin-left: 1.05em;
   text-indent: 5px;
   color: #818181;
-  font-size: 1.0em;
   background: #fff;
   font-weight: bold;
   -webkit-transition: all 0.2s linear;
