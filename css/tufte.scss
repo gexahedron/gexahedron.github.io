@@ -390,6 +390,10 @@ header > nav  label{
   vertical-align: baseline;
 }
 
+nav.group .float-right {
+  float: right;
+}
+
 ul.footer-links, .credits{
   list-style: none;
   text-align: center;

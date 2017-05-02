@@ -21,9 +21,9 @@
     {% for node in posts %}
         {% unless node.nav_exclude %}
             {% if page.url == node.url %}
-              <label class="active">{{ node.lang }}</label>
+              <label class="active float-right">{{ node.lang }}</label>
             {% else %}
-              <a href="{{node.url | prepend: site.baseurl}}">{{ node.lang }}</a>
+              <a href="{{node.url | prepend: site.baseurl}}" class="float-right">{{ node.lang }}</a>
             {% endif %}
         {% endunless %}
     {% endfor %}
@@ -32,9 +32,9 @@
     {% for node in pages %}
         {% unless node.nav_exclude %}
             {% if page.url == node.url %}
-              <label class="active">{{ node.lang }}</label>
+              <label class="active float-right">{{ node.lang }}</label>
             {% else %}
-              <a href="{{node.url | prepend: site.baseurl}}">{{ node.lang }}</a>
+              <a href="{{node.url | prepend: site.baseurl}}" class="float-right">{{ node.lang }}</a>
             {% endif %}
         {% endunless %}
     {% endfor %}
