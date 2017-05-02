@@ -35,7 +35,6 @@ html, body { height: 100%; }
 //html { font-size: 15px; }
 
 html{
-    text-align: baseline;
     font-size: 11px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -343,7 +342,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 header > nav.group, body footer {
   width: 95%;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
 }
 
 //nav.group a.active:before{ content:"\0003c\000a0";} // escaped unicode for the carats and then a space on active menu links
@@ -358,7 +357,6 @@ header > nav  a{
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: $contrast-color;
-  padding-top: 1.5rem;
   text-decoration: none;
   display: inline-block;
   float: left;
@@ -368,18 +366,25 @@ header > nav  a{
   //margin-left: 1rem;
   vertical-align: baseline;
 }
-header > nav a img{
+
+header > nav img{
+  display: inline-block;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: baseline;
+
   height: 5rem;
   position: relative;
   max-width: 100%;
   top:-1.5rem;
 }
+
 header > nav  label{
   font-size: 1.2rem;
   font-family: $sans-font;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  padding-top: 1.5rem;
   text-decoration: none;
   display: inline-block;
   float: left;

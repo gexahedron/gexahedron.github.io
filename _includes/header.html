@@ -1,21 +1,34 @@
 <!--- Header and nav template site-wide -->
 <header>
+    {{ page.url }}
     <nav class="group">
     {% if page.lang == "ru" %}
-    <a href="{{site.baseurl}}/indeks"><img class="badge" src="{{site.avatar}}" alt="CH"></a>
+        {% if page.url == "/indeks/" %}
+            <label><img class="badge" src="{{site.avatar}}" alt="CH"></label>
+            <label>Время ДПЦ!</label>
+        {% else %}
+            <a href="{{ site.baseurl }}/indeks"><img class="badge" src="{{site.avatar}}" alt="CH"></a>
+            <a href="{{ site.baseurl }}/indeks">Время ДПЦ!</a>
+        {% endif %}
+    {% elsif page.url == "/index.html" %}
+        <label><img class="badge" src="{{site.avatar}}" alt="CH"></label>
+        <label>CDC Adventure</label>
     {% else %}
-    <a href="{{site.baseurl}}/"><img class="badge" src="{{site.avatar}}" alt="CH"></a>
+        <a href="{{ site.baseurl }}/"><img class="badge" src="{{site.avatar}}" alt="CH"></a>
+        <a href="{{ site.baseurl }}/">CDC Adventure</a>
     {% endif %}
 
-    <nav>
     {% if page.lang == "ru" %}
-        <a href="{{ site.baseurl }}/indeks">Время ДПЦ!</a>
-        <a href="{{ site.baseurl }}/obo-mne">Обо мне</a>
+        {% if page.url == "/obo-mne/" %}
+            <label>Обо мне</label>
+        {% else %}
+            <a href="{{ site.baseurl }}/obo-mne">Обо мне</a>
+        {% endif %}
+    {% elsif page.url == "/about/" %}
+        <label>About</label>
     {% else %}
-        <a href="{{ site.baseurl }}/">CDC Adventure</a>
         <a href="{{ site.baseurl }}/about">About</a>
     {% endif %}
-    </nav>
 
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% for node in posts %}
