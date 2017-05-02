@@ -6,7 +6,11 @@
     {% include header.html %}
     <article>
       {{ content }}
-      {% include subscribe.html %}
+      <ul class="content-listing ">
+        <li class="listing">
+        {% include subscribe.html %}
+        </li>
+      </ul>
     </article>
     {% include print-footer.html %}
     {% include footer.html %}

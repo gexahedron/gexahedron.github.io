@@ -1,19 +1,17 @@
 <!-- Begin MailChimp Signup Form -->
 <form action="//github.us15.list-manage.com/subscribe/post?u=adba8fe4fbc439da06140267c&amp;id=58bf433db9" method="post" id="mc_embed_signup" name="mc_embed_signup" class="validate" target="_blank" novalidate>
     {% if page.lang == "ru" %}
-        <label for="mce-EMAIL">Подписаться:</label>
+        <label for="mce-EMAIL">Подписаться на <a href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">RSS</a> или</label>
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="почтовый адрес" required>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_adba8fe4fbc439da06140267c_58bf433db9" tabindex="-1" value=""></div>
         <input type="submit" value="Жмяк!" name="subscribe" id="mc-embedded-subscribe" class="button">
-        <label>или через <a href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">RSS</a></label>
     {% else %}
-        <label for="mce-EMAIL">Subscribe via</label>
+        <label for="mce-EMAIL">Subscribe via <a href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">RSS</a> or</label>
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_adba8fe4fbc439da06140267c_58bf433db9" tabindex="-1" value=""></div>
         <input type="submit" value="Do it!" name="subscribe" id="mc-embedded-subscribe" class="button">
-        <label>or <a href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">RSS</a></label>
     {% endif %}
 </form>
 <!--End mc_embed_signup-->

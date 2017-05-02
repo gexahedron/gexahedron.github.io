@@ -1,0 +1,8 @@
+{% if page.lang == "ru" %}
+    {% assign m = post.date | date: "%-m" %}
+    {{ post.date | date: "%-d" }}
+    {{ site.dates[page.lang][m] }}
+    {{ post.date | date: "%Y" }}
+{% else %}
+    {{ post.date | date: "%B %-d, %Y" }}
+{% endif %}

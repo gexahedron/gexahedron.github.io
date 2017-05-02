@@ -374,6 +374,22 @@ header > nav a img{
   max-width: 100%;
   top:-1.5rem;
 }
+header > nav  label{
+  font-size: 1.2rem;
+  font-family: $sans-font;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding-top: 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 2rem;
+  //margin-left: 1rem;
+  vertical-align: baseline;
+}
+
 ul.footer-links, .credits{
   list-style: none;
   text-align: center;
@@ -614,6 +630,7 @@ hr.slender {
   display: flex;
   -webkit-align-items: center;
           align-items: center;
+  flex-wrap: wrap;
   background: $bg-color;
   font-family: $sans-font;
   text-align: center;
@@ -638,8 +655,8 @@ hr.slender {
   position: relative;
   background-color: #266080;
   padding: 0;
-  margin-left: 1.05em;
-  margin-right: 0.9em;
+  margin-right: 0.95em;
+  margin-bottom: 0.85em;
   border: 0 none;
   border-radius: 6px;
   color: #fff;
@@ -667,6 +684,8 @@ hr.slender {
   display: inline;
 }
 #mc_embed_signup label {
+  margin-right: 0.95em;
+  margin-bottom: 0.85em;
   font-size: 13px;
   color: #616161;
   font-weight: bold;
@@ -674,7 +693,8 @@ hr.slender {
 #mc_embed_signup input.email {
   font-family: $sans-font;
   padding: 8px 4px;
-  margin-left: 1.05em;
+  margin-right: 0.95em;
+  margin-bottom: 0.85em;
   text-indent: 5px;
   color: #818181;
   background: #fff;
@@ -718,7 +738,12 @@ hr.slender {
   display: block;
   float: none;
   width: auto;
-  margin-left: 1.05em;
+  margin-right: 0.95em;
+  margin-bottom: 0.85em;
   text-align: left;
   padding: .5em 0;
+}
+
+span.at-label {
+  font-family: $sans-font;
 }
