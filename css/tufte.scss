@@ -266,11 +266,11 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
                    color: $contrast-color;
                    top: 0rem; } //removed superscripting for numerical reference in sidenote
 
-form, footer, p, div.table-wrapper, div.mathblock, nav.group{ width: 55%; }
+form, footer, p, div.table-wrapper, div.mathblock, nav.group, footer.group{ width: 55%; }
 
 div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' so scroll bars appear only as needed
 
-@media screen and (max-width: 760px) { p, footer, div.mathblock, nav.group{ width: 90%; }
+@media screen and (max-width: 760px) { p, footer, div.mathblock, nav.group, footer.group{ width: 90%; }
                                        pre code { width: 87.5%; }
                                        ul { width: 85%; }
                                        figure { max-width: 90%; }
