@@ -1,0 +1,28 @@
+---
+layout: full-width
+---
+
+{% if page.lang == "ru" %}
+    <h1 class="content-listing-header serif">Посты с тегом: <i>{{ page.slug }}</i></h1>
+{% else %}
+    <h1 class="content-listing-header serif">Articles with tag: <i>{{ page.slug }}</i></h1>
+{% endif %}
+
+<ul class="content-listing ">
+  {% if site.tags[page.slug] %}
+    {% for post in site.tags[page.slug] %}
+        <li class="listing">
+            <hr class="slender">
+            <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
+            <br><span class="smaller">{% include post_date.html %}</span>  <br/>
+            <div>{{ post.excerpt }}</div>
+        </li>
+      {% endfor %}
+  {% else %}
+    {% if page.lang == "ru" %}
+        <p>Тут пока что нет постов.</p>
+    {% else %}
+        <p>There are no posts with this tag.</p>
+      {% endif %}
+  {% endif %}
+</ul>

@@ -17,13 +17,16 @@ nav_exclude: true
 @import "../_sass/settings";
 @import "../_sass/syntax-highlighting";
 @import "../_sass/svg-icons";
+@import "../_sass/transition";
 
 // Global Resets
 //
+$blue: #266080;
+
 * { margin: 0; padding: 0; }
 
 /* clearfix hack after Cederholm (group class name) */
-.group:after {
+.group:after, .full-width-group:after {
   content: "";
   display: table;
   clear: both;
@@ -263,11 +266,11 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
                    color: $contrast-color;
                    top: 0rem; } //removed superscripting for numerical reference in sidenote
 
-form, p, footer, div.table-wrapper, div.mathblock{ width: 55%; }
+form, footer, p, div.table-wrapper, div.mathblock, nav.group{ width: 55%; }
 
 div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' so scroll bars appear only as needed
 
-@media screen and (max-width: 760px) { p, footer,div.mathblock { width: 90%; }
+@media screen and (max-width: 760px) { p, footer, div.mathblock, nav.group{ width: 90%; }
                                        pre code { width: 87.5%; }
                                        ul { width: 85%; }
                                        figure { max-width: 90%; }
@@ -334,14 +337,12 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 .smaller { font-size: 80%;}
 //Nav and Footer styling area
 
-header > nav.group, body footer {
+header > nav, body footer {
   width: 95%;
   padding-top: 3.5rem;
 }
 
-//nav.group a.active:before{ content:"\0003c\000a0";} // escaped unicode for the carats and then a space on active menu links
-//nav.group a.active:after{ content:"\000a0\0003e" ;}
-nav.group .active {
+nav .active {
   font-weight: bold;
 }
 
@@ -357,7 +358,6 @@ header > nav  a{
   margin-top: 0;
   margin-bottom: 0;
   padding-right: 2rem;
-  //margin-left: 1rem;
   vertical-align: baseline;
 }
 
@@ -385,11 +385,10 @@ header > nav  label{
   margin-top: 0;
   margin-bottom: 0;
   padding-right: 2rem;
-  //margin-left: 1rem;
   vertical-align: baseline;
 }
 
-nav.group .float-right {
+nav .float-right {
   float: right;
 }
 
@@ -656,7 +655,7 @@ hr.slender {
 }
 #mc_embed_signup .button {
   position: relative;
-  background-color: #266080;
+  background-color: $blue;
   padding: 0;
   margin-right: 0.95em;
   margin-bottom: 0.85em;
@@ -750,3 +749,54 @@ hr.slender {
 span.at-label {
   font-family: $sans-font;
 }
+
+
+$font-font-awesome: FontAwesome;
+$category-color: $blue;
+
+.post-category {
+  display: inline-block;
+  background: rgba($category-color, 0.15);
+  padding: 0 .5rem;
+  margin-top: 1.0rem;
+  border-radius: 4px;
+  color: $contrast-color;
+  font-family: $sans-font;
+  font-size: 90%;
+  &:before {
+    content: "\f07b";
+    font-family: $font-font-awesome;
+    padding-right: .5em;
+  }
+  &:hover {
+    text-decoration: none;
+    background: $category-color;
+    color: $bg-color;
+  }
+  @include transition(all .1s ease-in-out);
+}
+
+
+.post-tag {
+  display: inline-block;
+  background: rgba($contrast-color, 0.15);
+  padding: 0 .5rem;
+  margin-top: 1.0rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: $contrast-color;
+  font-family: $sans-font;
+  font-size: 90%;
+  &:before {
+    content: "\f02b";
+    font-family: $font-font-awesome;
+    padding-right: .5em;
+  }
+  &:hover {
+    text-decoration: none;
+    background: $contrast-color;
+    color: $bg-color;
+  }
+  @include transition(all .1s ease-in-out);
+}
+

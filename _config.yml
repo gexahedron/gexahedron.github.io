@@ -31,30 +31,66 @@ page:
     template: _page.txt
     extension: md
 
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
+  my_tags:
+    output: true
+    permalink: /blog/tag/:name/
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: blog_by_category
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog_by_tag
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/gexahedron/gexahedron.github.io/master/images/favicon.png
+logo: https://raw.githubusercontent.com/gexahedron/gexahedron.github.io/master/images/favicon.png
 
-#
-# Flags below are optional
-#
 
-twitter-username: gexicon
+twitter:
+    username: gexicon
+
+social:
+  name: Nikolay Ulyanov
+  links:
+    - https://github.com/gexahedron
+    - http://stackoverflow.com/users/1872334/gexahedron
+    - https://www.linkedin.com/in/nikolay-ulyanov-59464b7a
+    - https://plus.google.com/+NikolayUlyanov
+    - https://twitter.com/gexicon
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-    dribbble:
     email: ulyanick@gmail.com
-    facebook:
-    flickr:
     github: gexahedron
-    instagram:
-    linkedin: nikolay-ulyanov-59464b7a
-    pinterest:
-    rss: 1
-    twitter: gexicon
     stackoverflow: users/1872334/gexahedron
-    youtube: # channel/<your_long_string> or user/<user-name>
+    linkedin: nikolay-ulyanov-59464b7a
     googleplus: +NikolayUlyanov
+    twitter: gexicon
+    rss: 1
+    facebook:
+    instagram:
+    youtube: # channel/<your_long_string> or user/<user-name>
+    dribbble:
+    flickr:
+    pinterest:
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -82,18 +118,18 @@ excerpt_separator: <!--more-->
 dates:
     en:
     ru:
-        '1': 'Января'
-        '2': 'Февраля'
-        '3': 'Марта'
-        '4': 'Апреля'
-        '5': 'Мая'
-        '6': 'Июня'
-        '7': 'Июля'
-        '8': 'Августа'
-        '9': 'Сентября'
-        '10': 'Октября'
-        '11': 'Ноября'
-        '12': 'Декабря'
+        '1': 'января'
+        '2': 'февраля'
+        '3': 'марта'
+        '4': 'апреля'
+        '5': 'мая'
+        '6': 'июня'
+        '7': 'июля'
+        '8': 'августа'
+        '9': 'сентября'
+        '10': 'октября'
+        '11': 'ноября'
+        '12': 'декабря'
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -111,6 +147,9 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
+
+gems:
+    - jekyll-sitemap
 
 # Exclude these files from your production _site
 exclude:

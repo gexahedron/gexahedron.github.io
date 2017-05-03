@@ -2,7 +2,11 @@
 <html prefix="og: http://ogp.me/ns#" lang="{{ page.lang }}">
   {% include meta.html %}
   <body class="full-width">
-    {% include header.html %}
+    <header>
+        <nav class="full-width-group">
+            {% include header.html %}
+        </nav>
+    </header>
     <article>
       {{ content }}
       <ul class="content-listing ">
