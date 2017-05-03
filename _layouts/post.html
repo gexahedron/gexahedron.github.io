@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-<p class="subtitle">{% include page_date.html %}</p>
+<p class="subtitle">{% include page_date.html %}
 {% assign category = site.my_categories | where: "slug", page.category %}
 {% assign category = category[0] %}
 {% if category %}
@@ -27,9 +27,9 @@ layout: default
 {% endif %}
 
 {% if page.lang == "ru" %}
-    <p class="subtitle">Размещено {% if category_content %} в категории {{ category_content }}{% endif %}{{ tags_content }}</p>
+    | Размещено {% if category_content %} в категории {{ category_content }}{% endif %}{{ tags_content }}</p>
 {% else %}
-    <p class="subtitle">Posted{% if category_content %} in {{ category_content }}{% endif %}{{ tags_content }}</p>
+    | Posted{% if category_content %} in {{ category_content }}{% endif %}{{ tags_content }}</p>
 {% endif %}
 
 {{ content }}
