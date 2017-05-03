@@ -12,7 +12,7 @@ layout: default
 
 {% if page.tags.size > 0 %}
     {% if page.lang == "ru" %}
-        {% capture tags_content %}{% if page.tags.size > 1 %} с тегами:{% else %} с тегом{% endif %}{% endcapture %}
+        {% capture tags_content %}{% if page.tags.size > 1 %} с&nbsp;тегами:{% else %} с&nbsp;тегом{% endif %}{% endcapture %}
     {% else %}
         {% capture tags_content %} with tag{% if page.tags.size > 1 %}s:{% endif %}{% endcapture %}
     {% endif %}
@@ -27,7 +27,7 @@ layout: default
 {% endif %}
 
 {% if page.lang == "ru" %}
-    | Размещено {% if category_content %} в категории {{ category_content }}{% endif %}{{ tags_content }}</p>
+    | Размещено {% if category_content %} в&nbsp;категории {{ category_content }}{% endif %}{{ tags_content }}</p>
 {% else %}
     | Posted{% if category_content %} in {{ category_content }}{% endif %}{{ tags_content }}</p>
 {% endif %}
