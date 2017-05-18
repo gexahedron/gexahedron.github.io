@@ -7,7 +7,7 @@ tags: [cdc, berge-fulkerson, nz5-flows, petersen-colouring]
 lang: en
 ---
 
-Current question to explore: can we (sometimes) derive 5cdc from o6c4c?
+Current question to explore: can we (sometimes) derive 5cdc from o6c4c?<!--more-->
 
 I have experimentally found, that sometimes we can take o6c4c solution, find weights for the cycles and produce some nowhere--zero 5--flow.
 
