@@ -165,9 +165,9 @@
     
     <item>
       <title>Current plan on CDC</title>
-      <link>https://gexahedron.github.io/blog/2017-05-18-cdc-plan/</link>
+      <link>https://gexahedron.github.io/post/2017-05-18-cdc-plan/</link>
       <pubDate>Thu, 18 May 2017 19:30:12 +0200</pubDate>
-      <guid>https://gexahedron.github.io/blog/2017-05-18-cdc-plan/</guid>
+      <guid>https://gexahedron.github.io/post/2017-05-18-cdc-plan/</guid>
       <description>&lt;p&gt;Current question to explore: can we (sometimes) derive 5cdc from o6c4c?&lt;/p&gt;
 &lt;p&gt;I have experimentally found, that sometimes we can take o6c4c solution, find weights for the cycles and produce some nowhere&amp;ndash;zero 5&amp;ndash;flow.&lt;/p&gt;
 &lt;p&gt;Experiments also show that we can always construct some (3,3)&amp;ndash;flow parity&amp;ndash;pair&amp;ndash;cover (which always leads to 5cdc) from any nowhere&amp;ndash;zero 5&amp;ndash;flow.&lt;/p&gt;
