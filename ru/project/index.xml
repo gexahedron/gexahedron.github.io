@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Mycelium🕸Гексахедрона</title>
+    <link>https://gexahedron.github.io/ru/project/</link>
+      <atom:link href="https://gexahedron.github.io/ru/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sun, 30 May 2021 19:11:09 +0200</lastBuildDate>
+    <image>
+      <url>https://gexahedron.github.io/media/icon_huec78c18d3bf96adb518676badf790e02_21439_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://gexahedron.github.io/ru/project/</link>
+    </image>
+    
+    <item>
+      <title>Let&#39;s Bowie Dance</title>
+      <link>https://gexahedron.github.io/ru/project/dancing_bowie/</link>
+      <pubDate>Sun, 30 May 2021 19:11:09 +0200</pubDate>
+      <guid>https://gexahedron.github.io/ru/project/dancing_bowie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Аппроксимация несовозможными</title>
+      <link>https://gexahedron.github.io/ru/project/incompossible_approximations/</link>
+      <pubDate>Fri, 18 Sep 2020 23:04:20 +0200</pubDate>
+      <guid>https://gexahedron.github.io/ru/project/incompossible_approximations/</guid>
+      <description>&lt;p&gt;Hello! 👋&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Floating Utopia: первый акт</title>
+      <link>https://gexahedron.github.io/ru/project/floating_utopia_act1/</link>
+      <pubDate>Sun, 30 Aug 2020 17:48:06 +0200</pubDate>
+      <guid>https://gexahedron.github.io/ru/project/floating_utopia_act1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flora.sushnevo</title>
+      <link>https://gexahedron.github.io/ru/project/flora_sushnevo/</link>
+      <pubDate>Sun, 16 Aug 2020 17:48:06 +0200</pubDate>
+      <guid>https://gexahedron.github.io/ru/project/flora_sushnevo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Well-Tempered Tabs</title>
+      <link>https://gexahedron.github.io/ru/project/well_tempered_tabs/</link>
+      <pubDate>Sat, 21 Mar 2020 19:11:09 +0200</pubDate>
+      <guid>https://gexahedron.github.io/ru/project/well_tempered_tabs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archeo-hommage-octan (2020)</title>
+      <link>https://gexahedron.github.io/ru/project/archeo_hommage_octan/</link>
+      <pubDate>Thu, 06 Feb 2020 19:11:09 +0200</pubDate>
+      <guid>https://gexahedron.github.io/ru/project/archeo_hommage_octan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Micros (2019)</title>
+      <link>https://gexahedron.github.io/ru/project/micros/</link>
+      <pubDate>Sat, 03 Aug 2019 19:11:09 +0200</pubDate>
+      <guid>https://gexahedron.github.io/ru/project/micros/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

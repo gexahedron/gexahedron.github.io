@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Блог | Mycelium🕸Гексахедрона</title>
+    <link>https://gexahedron.github.io/ru/post/</link>
+      <atom:link href="https://gexahedron.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Блог</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Thu, 18 May 2017 19:30:12 +0200</lastBuildDate>
+    <image>
+      <url>https://gexahedron.github.io/media/icon_huec78c18d3bf96adb518676badf790e02_21439_512x512_fill_lanczos_center_3.png</url>
+      <title>Блог</title>
+      <link>https://gexahedron.github.io/ru/post/</link>
+    </image>
+    
+    <item>
+      <title>Текущий план по ДПЦ</title>
+      <link>https://gexahedron.github.io/ru/post/2017-05-18-cdc-plan/</link>
+      <pubDate>Thu, 18 May 2017 19:30:12 +0200</pubDate>
+      <guid>https://gexahedron.github.io/ru/post/2017-05-18-cdc-plan/</guid>
+      <description>&lt;p&gt;Текущий вопрос для исследования: можно ли (иногда) получать 5cdc из o6c4c?&lt;/p&gt;
+&lt;p&gt;Эксперименты показывают, что иногда можно из o6c4c получать совместимые нн5&amp;ndash;потоки (типа берём эти 6 ориентированных циклов и как&amp;ndash;нибудь их взвешиваем, чтоб было хорошо).&lt;/p&gt;
+&lt;p&gt;Эксперименты также настойчиво указывают, что из нн5&amp;ndash;потоков всегда можно соорудить какую&amp;ndash;нибудь чётность&amp;ndash;пару&amp;ndash;накрытие (3,3)&amp;ndash;потоком (далее будем писать как (3,3)&amp;ndash;pp), из чего можно всегда сделать 5cdc.&lt;/p&gt;
+&lt;p&gt;Есть и другая связь между 6c4c и 5cdc &amp;mdash; через раскраску Петерсена (Petersen colouring).&lt;/p&gt;
+&lt;p&gt;И также известно, что не существует ориентированной версии раскраски Петерсена.&lt;/p&gt;
+&lt;p&gt;Поэтому есть ощущение, что есть 2 различных способа связать между собой 6c4c и 5cdc решения (будет ещё пост про это).&lt;/p&gt;
+&lt;p&gt;План такой:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;фиксируем какой&amp;ndash;нибудь граф, например 18g1 (я ещё напишу потом про эту нотацию);&lt;/li&gt;
+&lt;li&gt;сгенерируем все раскраски Петерсена для этого графа, сначала в рамках терминов бедных и богатых рёбер (poor and rich edges), а потом уже просто в терминах цветов/образов графа;&lt;/li&gt;
+&lt;li&gt;рассмотрим также отдельно сам граф Петерсена и построим для него все возможные 6с4с решения (их всего 1) и все 5cdc решения (их около 10 в случае конфигурации 96555 и около 30 в случае конфигурации 86655);&lt;/li&gt;
+&lt;li&gt;теперь берём и комбинируем все раскраски Петерсена для 18g1 со всеми возможными парами решений 6c4c&amp;ndash;5cdc, происходящих из графа Петерсена;&lt;/li&gt;
+&lt;li&gt;после этого берём какое&amp;ndash;нибудь o6c4c решение для 18g1;&lt;/li&gt;
+&lt;li&gt;находим все совместимые нн5&amp;ndash;потоки для этого решения;&lt;/li&gt;
+&lt;li&gt;находим все подходящие (3,3)&amp;ndash;pp решения для этих нн5&amp;ndash;потоков;&lt;/li&gt;
+&lt;li&gt;находим все 5cdc решения, происходящие из этих (3,3)&amp;ndash;pp решений;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;ПРОФИТ!&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

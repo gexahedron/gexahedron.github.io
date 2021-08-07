@@ -1,70 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://gexahedron.github.io/music_theory/chapter1/syllabus/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/music_theory/chapter2/syllabus/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/music_theory/chapter1/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/music_theory/chapter2/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/music_theory/chapter1/reading-list/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/music_theory/chapter2/reading-list/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/music_theory/chapter1/takeaways/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/projects/floating_utopia_act2/</loc>
-    <lastmod>2021-08-05T17:48:06+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/</loc>
-    <lastmod>2021-08-05T17:48:06+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/projects/</loc>
-    <lastmod>2021-08-05T17:48:06+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/projects/dancing_bowie/</loc>
-    <lastmod>2021-05-30T19:11:09+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/projects/posthuman_documentary/</loc>
-    <lastmod>2021-03-12T17:48:06+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/projects/floating_utopia_act1/</loc>
-    <lastmod>2020-08-30T17:48:06+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/projects/flora_sushnevo/</loc>
-    <lastmod>2020-08-16T17:48:06+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/projects/archeo_hommage_octan/</loc>
-    <lastmod>2020-02-06T19:11:09+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/projects/micros/</loc>
-    <lastmod>2019-08-03T19:11:09+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/music_theory/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/post/2017-05-18-cdc-plan/</loc>
-    <lastmod>2017-05-18T19:30:12+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/post/</loc>
-    <lastmod>2017-05-18T19:30:12+02:00</lastmod>
-  </url><url>
-    <loc>https://gexahedron.github.io/authors/</loc>
-  </url><url>
-    <loc>https://gexahedron.github.io/categories/</loc>
-  </url><url>
-    <loc>https://gexahedron.github.io/graph_theory/</loc>
-  </url><url>
-    <loc>https://gexahedron.github.io/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://gexahedron.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2021-08-05T17:48:06+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://gexahedron.github.io/ru/sitemap.xml</loc>
+    
+      <lastmod>2021-05-30T19:11:09+02:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
