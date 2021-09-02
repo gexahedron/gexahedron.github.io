@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Gexahedron&#39;s🕸Мицелий</title>
+    <title>Blog | Gexahedron&#39;s🕸Мицелий</title>
     <link>https://gexahedron.github.io/post/</link>
       <atom:link href="https://gexahedron.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <description>Blog</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 May 2017 19:30:12 +0200</lastBuildDate>
     <image>
       <url>https://gexahedron.github.io/media/icon_huec78c18d3bf96adb518676badf790e02_21439_512x512_fill_lanczos_center_3.png</url>
-      <title>Posts</title>
+      <title>Blog</title>
       <link>https://gexahedron.github.io/post/</link>
     </image>
     

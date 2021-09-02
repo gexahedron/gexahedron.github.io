@@ -162,19 +162,6 @@
     <loc>https://gexahedron.github.io/music_theory/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://gexahedron.github.io/post/2017-05-18-cdc-plan/</loc>
-    <lastmod>2017-05-18T19:30:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://gexahedron.github.io/ru/post/2017-05-18-cdc-plan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gexahedron.github.io/post/2017-05-18-cdc-plan/"
-                />
-  </url><url>
     <loc>https://gexahedron.github.io/post/</loc>
     <lastmod>2017-05-18T19:30:12+02:00</lastmod>
     <xhtml:link
@@ -186,6 +173,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gexahedron.github.io/post/"
+                />
+  </url><url>
+    <loc>https://gexahedron.github.io/post/2017-05-18-cdc-plan/</loc>
+    <lastmod>2017-05-18T19:30:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://gexahedron.github.io/ru/post/2017-05-18-cdc-plan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gexahedron.github.io/post/2017-05-18-cdc-plan/"
                 />
   </url><url>
     <loc>https://gexahedron.github.io/authors/</loc>
