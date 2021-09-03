@@ -65,6 +65,22 @@
                 href="https://gexahedron.github.io/project/dancing_bowie/"
                 />
   </url><url>
+    <loc>https://gexahedron.github.io/poetry/</loc>
+    <lastmod>2021-05-12T19:27:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://gexahedron.github.io/ru/poetry/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gexahedron.github.io/poetry/"
+                />
+  </url><url>
+    <loc>https://gexahedron.github.io/poetry/2021-05-12-everyday-15-50/</loc>
+    <lastmod>2021-05-12T19:27:16+02:00</lastmod>
+  </url><url>
     <loc>https://gexahedron.github.io/project/posthuman_documentary/</loc>
     <lastmod>2021-03-12T17:48:06+02:00</lastmod>
   </url><url>
@@ -120,19 +136,6 @@
                 href="https://gexahedron.github.io/project/archeo_hommage_octan/"
                 />
   </url><url>
-    <loc>https://gexahedron.github.io/poetry/</loc>
-    <lastmod>2019-11-14T19:27:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://gexahedron.github.io/ru/poetry/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gexahedron.github.io/poetry/"
-                />
-  </url><url>
     <loc>https://gexahedron.github.io/poetry/2019-11-14-ghost-kanji/</loc>
     <lastmod>2019-11-14T19:27:16+02:00</lastmod>
     <xhtml:link
@@ -145,6 +148,9 @@
                 hreflang="en"
                 href="https://gexahedron.github.io/poetry/2019-11-14-ghost-kanji/"
                 />
+  </url><url>
+    <loc>https://gexahedron.github.io/poetry/2019-08-22-everyday-toilet/</loc>
+    <lastmod>2019-08-22T19:27:16+02:00</lastmod>
   </url><url>
     <loc>https://gexahedron.github.io/project/micros/</loc>
     <lastmod>2019-08-03T19:11:09+02:00</lastmod>
