@@ -123,6 +123,19 @@
                 href="https://gexahedron.github.io/project/well_tempered_tabs/"
                 />
   </url><url>
+    <loc>https://gexahedron.github.io/poetry/2020-02-06-archeo-hommage-octan/</loc>
+    <lastmod>2020-02-06T19:27:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://gexahedron.github.io/ru/poetry/2020-02-06-archeo-hommage-octan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gexahedron.github.io/poetry/2020-02-06-archeo-hommage-octan/"
+                />
+  </url><url>
     <loc>https://gexahedron.github.io/project/archeo_hommage_octan/</loc>
     <lastmod>2020-02-06T19:11:09+02:00</lastmod>
     <xhtml:link
@@ -165,8 +178,37 @@
                 href="https://gexahedron.github.io/project/micros/"
                 />
   </url><url>
+    <loc>https://gexahedron.github.io/poetry/2019-05-31-huey-luey-and-the/</loc>
+    <lastmod>2019-05-31T18:27:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://gexahedron.github.io/ru/poetry/2019-05-31-huey-luey-and-the/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gexahedron.github.io/poetry/2019-05-31-huey-luey-and-the/"
+                />
+  </url><url>
     <loc>https://gexahedron.github.io/music_theory/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/poetry/2018-11-12-miniatures/</loc>
+    <lastmod>2018-11-12T20:27:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://gexahedron.github.io/ru/poetry/2018-11-12-miniatures/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gexahedron.github.io/poetry/2018-11-12-miniatures/"
+                />
+  </url><url>
+    <loc>https://gexahedron.github.io/poetry/2018-10-26-sofat/</loc>
+    <lastmod>2018-10-26T23:27:16+02:00</lastmod>
   </url><url>
     <loc>https://gexahedron.github.io/post/</loc>
     <lastmod>2017-05-18T19:30:12+02:00</lastmod>

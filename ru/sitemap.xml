@@ -98,6 +98,9 @@
     <loc>https://gexahedron.github.io/ru/poetry/2020-05-11-cologne/</loc>
     <lastmod>2020-05-11T19:27:16+02:00</lastmod>
   </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2020-05-11-striptease/</loc>
+    <lastmod>2020-05-11T19:27:16+02:00</lastmod>
+  </url><url>
     <loc>https://gexahedron.github.io/ru/project/well_tempered_tabs/</loc>
     <lastmod>2020-03-21T19:11:09+02:00</lastmod>
     <xhtml:link
@@ -109,6 +112,19 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://gexahedron.github.io/ru/project/well_tempered_tabs/"
+                />
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2020-02-06-archeo-hommage-octan/</loc>
+    <lastmod>2020-02-06T19:27:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gexahedron.github.io/poetry/2020-02-06-archeo-hommage-octan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://gexahedron.github.io/ru/poetry/2020-02-06-archeo-hommage-octan/"
                 />
   </url><url>
     <loc>https://gexahedron.github.io/ru/project/archeo_hommage_octan/</loc>
@@ -124,6 +140,9 @@
                 href="https://gexahedron.github.io/ru/project/archeo_hommage_octan/"
                 />
   </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2020-01-08-cp1251-koi8-r/</loc>
+    <lastmod>2020-01-08T19:27:16+02:00</lastmod>
+  </url><url>
     <loc>https://gexahedron.github.io/ru/poetry/2019-11-14-ghost-kanji/</loc>
     <lastmod>2019-11-14T19:27:16+02:00</lastmod>
     <xhtml:link
@@ -137,11 +156,20 @@
                 href="https://gexahedron.github.io/ru/poetry/2019-11-14-ghost-kanji/"
                 />
   </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-11-01-tanketki-october-plus/</loc>
+    <lastmod>2019-11-01T19:27:16+02:00</lastmod>
+  </url><url>
     <loc>https://gexahedron.github.io/ru/poetry/2019-10-25-everyday-ontological-confusion/</loc>
     <lastmod>2019-10-25T20:27:16+02:00</lastmod>
   </url><url>
     <loc>https://gexahedron.github.io/ru/poetry/2019-10-25-everyday-anti-proverbs/</loc>
     <lastmod>2019-10-25T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-10-01-tanketki-september/</loc>
+    <lastmod>2019-10-01T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-09-01-tanketki-august/</loc>
+    <lastmod>2019-09-01T19:27:16+02:00</lastmod>
   </url><url>
     <loc>https://gexahedron.github.io/ru/project/micros/</loc>
     <lastmod>2019-08-03T19:11:09+02:00</lastmod>
@@ -155,6 +183,25 @@
                 hreflang="ru"
                 href="https://gexahedron.github.io/ru/project/micros/"
                 />
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-08-01-tanketki-july/</loc>
+    <lastmod>2019-08-01T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-05-31-huey-luey-and-the/</loc>
+    <lastmod>2019-05-31T18:27:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gexahedron.github.io/poetry/2019-05-31-huey-luey-and-the/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://gexahedron.github.io/ru/poetry/2019-05-31-huey-luey-and-the/"
+                />
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-04-23-fibonacci-bar/</loc>
+    <lastmod>2019-04-23T19:27:16+02:00</lastmod>
   </url><url>
     <loc>https://gexahedron.github.io/ru/poetry/2019-04-16-everyday-petri/</loc>
     <lastmod>2019-04-16T20:27:16+02:00</lastmod>
@@ -171,8 +218,84 @@
     <loc>https://gexahedron.github.io/ru/poetry/2019-04-09-everyday-report/</loc>
     <lastmod>2019-04-09T19:27:16+02:00</lastmod>
   </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-04-04-borsch/</loc>
+    <lastmod>2019-04-04T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-03-28-you-will-die-for-no-ones-notice/</loc>
+    <lastmod>2019-03-28T18:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-03-17-curtains/</loc>
+    <lastmod>2019-03-17T10:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-03-11-kalman-filter/</loc>
+    <lastmod>2019-03-11T10:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-03-10-listen-blintz/</loc>
+    <lastmod>2019-03-10T23:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2019-03-10-sand-crevices/</loc>
+    <lastmod>2019-03-10T22:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-12-19-inbetween/</loc>
+    <lastmod>2018-12-19T22:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-12-19-francisi-d-assisi/</loc>
+    <lastmod>2018-12-19T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-12-06-prosciutto-clearo/</loc>
+    <lastmod>2018-12-06T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-12-04-countdown-without-outliers/</loc>
+    <lastmod>2018-12-04T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-12-02-nonet/</loc>
+    <lastmod>2018-12-02T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-28-audio-drugs/</loc>
+    <lastmod>2018-11-28T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-26-ni-pa-ni-ma/</loc>
+    <lastmod>2018-11-26T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-25-yoptyt-flat/</loc>
+    <lastmod>2018-11-25T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-19-please-stahp/</loc>
+    <lastmod>2018-11-19T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-19-wat/</loc>
+    <lastmod>2018-11-19T20:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-19-nope/</loc>
+    <lastmod>2018-11-19T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-13-sunn-o/</loc>
+    <lastmod>2018-11-13T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-13-archverse/</loc>
+    <lastmod>2018-11-13T18:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-12-miniatures/</loc>
+    <lastmod>2018-11-12T20:27:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gexahedron.github.io/poetry/2018-11-12-miniatures/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://gexahedron.github.io/ru/poetry/2018-11-12-miniatures/"
+                />
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-11-12-dream/</loc>
+    <lastmod>2018-11-12T19:27:16+02:00</lastmod>
+  </url><url>
     <loc>https://gexahedron.github.io/ru/poetry/2018-11-02-abortion-adoption/</loc>
     <lastmod>2018-11-02T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-31-desiccator/</loc>
+    <lastmod>2018-10-31T21:27:16+02:00</lastmod>
   </url><url>
     <loc>https://gexahedron.github.io/ru/poetry/2018-10-31-opus-magnum/</loc>
     <lastmod>2018-10-31T20:27:16+02:00</lastmod>
@@ -186,11 +309,47 @@
     <loc>https://gexahedron.github.io/ru/poetry/2018-10-30-maelstrom/</loc>
     <lastmod>2018-10-30T19:27:16+02:00</lastmod>
   </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-30-titlegore/</loc>
+    <lastmod>2018-10-30T18:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-29-coolhweeps/</loc>
+    <lastmod>2018-10-29T22:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-29-destijl/</loc>
+    <lastmod>2018-10-29T21:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-29-notitle/</loc>
+    <lastmod>2018-10-29T20:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-29-forecast/</loc>
+    <lastmod>2018-10-29T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-28-harmony/</loc>
+    <lastmod>2018-10-28T20:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-28-intimacy/</loc>
+    <lastmod>2018-10-28T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-27-earn/</loc>
+    <lastmod>2018-10-27T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-26-places/</loc>
+    <lastmod>2018-10-26T22:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-26-states/</loc>
+    <lastmod>2018-10-26T21:27:16+02:00</lastmod>
+  </url><url>
     <loc>https://gexahedron.github.io/ru/poetry/2018-10-26-multiverse/</loc>
     <lastmod>2018-10-26T20:27:16+02:00</lastmod>
   </url><url>
     <loc>https://gexahedron.github.io/ru/poetry/2018-10-26-cdc/</loc>
     <lastmod>2018-10-26T19:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-26-blocks/</loc>
+    <lastmod>2018-10-26T18:27:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gexahedron.github.io/ru/poetry/2018-10-25-init/</loc>
+    <lastmod>2018-10-25T19:27:16+02:00</lastmod>
   </url><url>
     <loc>https://gexahedron.github.io/ru/post/</loc>
     <lastmod>2017-05-18T19:30:12+02:00</lastmod>
