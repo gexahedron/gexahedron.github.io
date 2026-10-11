@@ -1,0 +1,19 @@
+research/index.html
+  s_1453f86d1b4e0f::t_897f435d547a80 95-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "2b5afc06a1a7c30570624972978994d0091f1138",
+  "prompts": {},
+  "sessions": {
+    "s_1453f86d1b4e0f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_1453f86d1b4e0f",
+        "model": "unknown"
+      },
+      "human_author": "gexahedron <3427698+gexahedron@users.noreply.github.com>"
+    }
+  }
+}
