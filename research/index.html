@@ -33,6 +33,10 @@
   .profiles a { font-size: 1.3em; margin-left: 12px; color: var(--muted); text-decoration: none; }
   .profiles a:first-child { margin-left: 0; }
   .profiles a:hover { color: var(--link); }
+  ul.hog { list-style: none; padding-left: 0; }
+  ul.hog li { display: flex; align-items: center; gap: 14px; }
+  ul.hog .thumb { flex: none; line-height: 0; }
+  ul.hog img { border: 1px solid var(--rule); border-radius: 4px; background: #fff; }
   footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: .85em; padding: 16px 0 32px; }
 </style>
 </head>
@@ -93,19 +97,25 @@
 </ul>
 
 <h2>House of Graphs entries</h2>
-<ul>
-  <li><a href="https://houseofgraphs.org/graphs/58070">Hypohamiltonian permutation snark of colouring defect 4</a>,
-    <span class="venue">58 vertices, 2026.</span></li>
-  <li><a href="https://houseofgraphs.org/graphs/58069">Snark without oriented (2,4,4)-flows double cover</a>,
-    <span class="venue">108 vertices, 2026.</span></li>
-  <li><a href="https://houseofgraphs.org/graphs/58068">Snark without an oriented 6-cycle 4-cover</a>,
-    <span class="venue">70 vertices, 2026.</span></li>
-  <li><a href="https://houseofgraphs.org/graphs/58055">Non-Petersen snark without an oriented 9-cycle 6-cover</a>,
-    <span class="venue">38 vertices, 2026.</span></li>
-  <li><a href="https://houseofgraphs.org/graphs/58030">Smallest snark counterexample to 3 disjoint Bipartizing Matchings question</a>,
-    <span class="venue">28 vertices, 2026.</span></li>
-  <li><a href="https://houseofgraphs.org/graphs/58029">One of 20 smallest counterexamples to double-core conjecture</a>,
-    <span class="venue">38 vertices, 2026.</span></li>
+<ul class="hog">
+  <li><a class="thumb" href="https://houseofgraphs.org/graphs/58070"><img src="hog/58070.svg" alt="" width="64" height="64"></a>
+    <span><a href="https://houseofgraphs.org/graphs/58070">Hypohamiltonian permutation snark of colouring defect 4</a>,
+    <span class="venue">58 vertices, 2026.</span></span></li>
+  <li><a class="thumb" href="https://houseofgraphs.org/graphs/58069"><img src="hog/58069.svg" alt="" width="64" height="64"></a>
+    <span><a href="https://houseofgraphs.org/graphs/58069">Snark without oriented (2,4,4)-flows double cover</a>,
+    <span class="venue">108 vertices, 2026.</span></span></li>
+  <li><a class="thumb" href="https://houseofgraphs.org/graphs/58068"><img src="hog/58068.svg" alt="" width="64" height="64"></a>
+    <span><a href="https://houseofgraphs.org/graphs/58068">Snark without an oriented 6-cycle 4-cover</a>,
+    <span class="venue">70 vertices, 2026.</span></span></li>
+  <li><a class="thumb" href="https://houseofgraphs.org/graphs/58055"><img src="hog/58055.svg" alt="" width="64" height="64"></a>
+    <span><a href="https://houseofgraphs.org/graphs/58055">Non-Petersen snark without an oriented 9-cycle 6-cover</a>,
+    <span class="venue">38 vertices, 2026.</span></span></li>
+  <li><a class="thumb" href="https://houseofgraphs.org/graphs/58030"><img src="hog/58030.svg" alt="" width="64" height="64"></a>
+    <span><a href="https://houseofgraphs.org/graphs/58030">Smallest snark counterexample to 3 disjoint Bipartizing Matchings question</a>,
+    <span class="venue">28 vertices, 2026.</span></span></li>
+  <li><a class="thumb" href="https://houseofgraphs.org/graphs/58029"><img src="hog/58029.svg" alt="" width="64" height="64"></a>
+    <span><a href="https://houseofgraphs.org/graphs/58029">One of 20 smallest counterexamples to double-core conjecture</a>,
+    <span class="venue">38 vertices, 2026.</span></span></li>
 </ul>
 
 </main>
