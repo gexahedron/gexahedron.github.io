@@ -1,0 +1,19 @@
+graph_theory/strong_five_cycle_double_covers.tex
+  s_ff1d257935a708::t_63a65b6ae1bb4d 69,258-262,281-285,291,1102-1103,1142-1186,1190,1193,1196-1197,1199-1204,1208-1213,1215-1218,1237,1245
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "4f36a3e883199d850db847bd5bc254c694752eb0",
+  "prompts": {},
+  "sessions": {
+    "s_ff1d257935a708": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a13f0f-ad22-7671-bbba-f47ed5b12bc7",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "gexahedron <3427698+gexahedron@users.noreply.github.com>"
+    }
+  }
+}
