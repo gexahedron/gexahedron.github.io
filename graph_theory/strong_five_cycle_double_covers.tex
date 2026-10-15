@@ -66,6 +66,7 @@
 \declaretheorem[name=Proposition,sibling=theorem]{proposition}
 \declaretheorem[name=Lemma,sibling=theorem]{lemma}
 \declaretheorem[name=Corollary,sibling=theorem]{corollary}
+\declaretheorem[name=Conjecture,sibling=theorem]{conjecture}
 \declaretheorem[name=Definition,sibling=theorem,style=definition]{definition}
 \setlist[enumerate]{label=\textup{(\roman*)},leftmargin=*,itemsep=2pt,topsep=4pt}
 \newcommand{\F}{\mathbb F_2}
@@ -254,6 +255,11 @@
   Martin \v{S}koviera. \emph{Cubic graphs with colouring defect 3}.
   Electronic Journal of Combinatorics 31(2) (2024), P2.6.
   \href{https://doi.org/10.37236/12333}{doi:10.37236/12333}.}
+\expandafter\def\csname paper@KMNS25\endcsname{%
+  J\'an Karab\'a\v{s}, Edita M\'a\v{c}ajov\'a, Roman Nedela and
+  Martin \v{S}koviera. \emph{Colouring defect of strong snarks}.
+  Procedia Computer Science 273 (2025), 149--155.
+  \href{https://doi.org/10.1016/j.procs.2025.10.292}{\nolinkurl{doi:10.1016/j.procs.2025.10.292}}.}
 \expandafter\def\csname paper@MS21\endcsname{%
   Edita M\'a\v{c}ajov\'a and Martin \v{S}koviera.
   \emph{Critical and flow-critical snarks coincide}.
@@ -272,12 +278,17 @@
   Eckhard Steffen. \emph{1-factor and cycle covers of cubic graphs}.
   Journal of Graph Theory 78(3) (2015), 195--206.
   \href{https://doi.org/10.1002/jgt.21798}{\nolinkurl{doi:10.1002/jgt.21798}}.}
+\expandafter\def\csname paper@U26D\endcsname{%
+  Nikolay Ulyanov. \emph{Hypohamiltonian permutation snarks of
+  colouring defect four}. 2026, manuscript.
+  The $58$-vertex example is
+  \href{https://houseofgraphs.org/graphs/58070}{House of Graphs 58070}.}
 \newcommand{\paperreference}[1]{\csname paper@#1\endcsname}
 \makeatother
 
 \title[Graph Puzzles III.2-preview: Strong five-cycle double covers]{Graph Puzzles III.2-preview: Strong five-cycle double covers}
 \author{Nikolay Ulyanov + AI-Slop}
-\date{6 October 2026}
+\date{15 October 2026}
 \hypersetup{pdftitle={Graph Puzzles III.2-preview: Strong five-cycle double covers},pdfauthor={Nikolay Ulyanov + AI-Slop},
   colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black}
 
@@ -1088,7 +1099,8 @@ a five-cycle double cover: this holds if and only if $G-V(C)$ is
 3-edge-colourable.
 
 \newpage
-\section{Relationships between snark classes}
+\appendix
+\section{Relationships between snark classes}\label{app:snark-classes}
 
 For context, we recall how the classes considered here relate to two
 further familiar classes. A snark $G$ is \emph{hypohamiltonian} if
@@ -1127,43 +1139,87 @@ pair leaves a graph containing the original uncolourable remainder.
 Thus a counterexample to the bicritical formulation yields a
 counterexample to the critical formulation.
 
-\Needspace{12\baselineskip}
+We also consider the class of \emph{non-strong} snarks. A snark is
+\emph{strong} if deleting any edge and suppressing the resulting
+vertices of degree two always leaves an uncolourable cubic graph.
+Equivalently, $G-\{u,v\}$ is uncolourable for every edge $uv$
+\citep[Theorem~7]{MS21}. Thus a snark is non-strong precisely when
+$G-\{u,v\}$ is 3-edge-colourable for at least one edge $uv$.
+Every critical snark is therefore non-strong. The two-path colouring
+above shows that every permutation snark is non-strong as well.
+
+\Needspace{5\baselineskip}
+Karab\'a\v{s}, M\'a\v{c}ajov\'a, Nedela and
+\v{S}koviera \bothcite{KMNS25}, Theorem~1.1, prove that every
+strong snark has colouring defect at least six. In particular, every
+snark of colouring defect at most four is non-strong.
+
+The earlier defect-three conjectures are false. Karab\'a\v{s},
+M\'a\v{c}ajov\'a, Nedela and \v{S}koviera
+\citep[Conjectures~7.4 and~7.6]{KMNS24} conjectured that every
+critical snark, and every bicritical snark, has colouring defect
+three. Steffen \bothcite{S15}, Conjecture~4.1, made the assertion
+for hypohamiltonian snarks (his $\mu_3$ is our $\df$).
+The author's construction \bothcite{U26D} gives, for each integer
+$t\geq0$, a hypohamiltonian permutation snark $G_t$ with
+\[
+  |V(G_t)|=58+24t,\qquad \df(G_t)=4.
+\]
+Each $G_t$ has girth five, cyclic edge-connectivity four, and no
+hexagon. The $58$-vertex member is available as
+\href{https://houseofgraphs.org/graphs/58070}{House of Graphs 58070}.
+Since every $G_t$ is also bicritical and critical, the family refutes
+all three conjectures and also shows that permutation snarks need
+not have defect three. We propose the following weakened bound.
+
+\Needspace{8\baselineskip}
+\begin{conjecture}\label{conj:defect-four}
+Every critical snark and every permutation snark has colouring defect
+at most four. In particular, every bicritical snark and every
+hypohamiltonian snark has colouring defect at most four.
+\end{conjecture}
+
+The family $G_t$ shows that four would be best possible in each of
+these four classes. The permutation assertion is stated independently
+of the permutation criticality conjecture.
+
+\Needspace{16\baselineskip}
 \begin{figure}[htbp]
 \centering
 \begin{tikzpicture}[
+  x=25mm,y=13mm,
   every node/.style={font=\small},
   class/.style={draw,rounded corners=2pt,align=center,
-    minimum height=10mm,inner xsep=7pt},
+    minimum height=10mm,inner xsep=4pt},
   inclusion/.style={-{Stealth[length=5pt]},line width=.6pt},
   conjecture/.style={inclusion,dashed}]
+  % Integer coordinates align the classes on a regular grid.
+  % Every target is in a column strictly to the right of its source.
   \node[class] (hypo) at (0,0) {Hypohamiltonian};
-  \node[class] (bicrit) at (4,0) {Bicritical};
-  \node[class] (crit) at (7.7,0) {Critical};
-  \node[class] (perm) at (0,-1.8) {Permutation};
-  \node[class] (defect) at (7.7,-1.8) {Colouring defect 3};
+  \node[class] (bicrit) at (1,0) {Bicritical};
+  \node[class] (crit) at (2,0) {Critical};
+  \node[class] (defectthree) at (2,-2) {Colouring\\defect $3$};
+  \node[class] (defectfour) at (3,-3) {Colouring\\defect $\leq4$};
+  \node[class] (perm) at (0,-4) {Permutation};
+  \node[class] (nonstrong) at (4,-4) {Non-strong};
   \draw[inclusion] (hypo) -- (bicrit);
   \draw[inclusion] (bicrit) -- (crit);
   \draw[conjecture] (perm) -- (bicrit);
-  \draw[conjecture] (crit) -- (defect);
+  \draw[conjecture] (crit) -- (defectfour);
+  \draw[conjecture] (perm) -- (defectfour);
+  \draw[inclusion] (defectthree) -- (defectfour);
+  \draw[inclusion] (defectfour) -- (nonstrong);
+  \draw[inclusion] (crit) -- (nonstrong.north);
+  \draw[inclusion] (perm) -- (nonstrong);
 \end{tikzpicture}
-\caption{Relationships between classes of snarks. Solid arrows are
-proved inclusions, both strict; dashed arrows are conjectural
-inclusions. The dashed arrow from permutation to bicritical can
-equivalently be directed to critical. The conjecture that critical
-snarks have defect 3 implies the corresponding conjectures for
-bicritical and hypohamiltonian snarks.}
+\caption{\raggedright Arrows point to containing classes. Solid arrows are proved
+inclusions; dashed arrows are conjectural. The two arrows to defect
+at most $4$ express \cref{conj:defect-four}. The permutation-to-bicritical
+arrow can equivalently be directed to critical.}
 \label{fig:snark-classes}
 \end{figure}
 \FloatBarrier
 
-Karab\'a\v{s}, M\'a\v{c}ajov\'a, Nedela and \v{S}koviera
-\citep[Conjecture~7.4]{KMNS24} conjecture that every critical snark
-has colouring defect three. Their Conjecture~7.6 makes the weaker
-assertion for irreducible, equivalently bicritical, snarks. Both imply
-Steffen's earlier conjecture \bothcite{S15}, Conjecture~4.1, that
-every hypohamiltonian snark has defect three (his $\mu_3$ is our
-$\df$). Together with the permutation criticality conjecture, they
-would also put every permutation snark in the defect-three class.
 Defect three does not imply criticality, even for cyclically
 4-edge-connected snarks of girth at least five: the six snarks on
 20 vertices in \citep[Table~1]{KMNS24} all have defect three, but
@@ -1178,6 +1234,7 @@ only one is critical.
 \bibitem[HOZZ19]{HOZZ19}\paperreference{HOZZ19}
 \bibitem[HS26]{HS26}\paperreference{HS26}
 \bibitem[KMNS24]{KMNS24}\paperreference{KMNS24}
+\bibitem[KMNS25]{KMNS25}\paperreference{KMNS25}
 \bibitem[LHLZ25]{LHLZ25}\paperreference{LHLZ25}
 \bibitem[LHLZ23]{LHLZ23}\paperreference{LHLZ23}
 \bibitem[MS21]{MS21}\paperreference{MS21}
@@ -1185,6 +1242,7 @@ only one is critical.
 \bibitem[S01]{S01}\paperreference{S01}
 \bibitem[S15]{S15}\paperreference{S15}
 \bibitem[U26]{U26}\paperreference{U26}
+\bibitem[U26D]{U26D}\paperreference{U26D}
 \bibitem[Xu14]{Xu14}\paperreference{Xu14}
 \end{thebibliography}
 \endgroup
