@@ -1,0 +1,21 @@
+research/hog/57244.svg
+  s_733065cba902b2::t_b1db088bec75a2 1
+research/index.html
+  s_733065cba902b2::t_98220eb89c984a 119-121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e735b08ed6580b899c85b78451343abed2fea99a",
+  "prompts": {},
+  "sessions": {
+    "s_733065cba902b2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_733065cba902b2",
+        "model": "unknown"
+      },
+      "human_author": "gexahedron <3427698+gexahedron@users.noreply.github.com>"
+    }
+  }
+}
