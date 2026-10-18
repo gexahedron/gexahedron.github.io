@@ -1,0 +1,19 @@
+research/index.html
+  s_c3fe7359795f0d::t_77bb7eea1f4e62 40-45,74,89,105-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "c3af431d41b3c145fddcc81099b69ad5bd466b68",
+  "prompts": {},
+  "sessions": {
+    "s_c3fe7359795f0d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "973dcb1c-649f-4e1a-bac6-8c55947a0a12",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "gexahedron <3427698+gexahedron@users.noreply.github.com>"
+    }
+  }
+}
