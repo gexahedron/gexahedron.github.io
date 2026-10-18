@@ -37,6 +37,12 @@
   ul.hog li { display: flex; align-items: center; gap: 14px; }
   ul.hog .thumb { flex: none; line-height: 0; }
   ul.hog img { border: 1px solid var(--rule); border-radius: 4px; background: #fff; }
+  details.section > summary { cursor: pointer; list-style: none; }
+  details.section > summary::-webkit-details-marker { display: none; }
+  details.section > summary h2 { display: inline; }
+  details.section > summary::before { content: "▸"; display: inline-block; width: 1em; font-size: 1.2em; color: var(--muted); }
+  details.section[open] > summary::before { content: "▾"; }
+  details.section > summary { margin: 1.8em 0 .5em; }
   footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: .85em; padding: 16px 0 32px; }
 </style>
 </head>
@@ -65,7 +71,7 @@
   <a href="https://github.com/gexahedron/graph-puzzles-lean">graph-puzzles-lean</a>.
 </p>
 
-<h2>Papers obtained with AI assistance</h2>
+<h2>Preprints Previews (AI-slop drafts)</h2>
 <p>
   The following drafts contain results obtained in dialogue and with substantial help from AI models.
 </p>
@@ -80,7 +86,7 @@
     <span class="venue">Zenodo working paper, 2026; <a href="https://github.com/gexahedron/graph-puzzles-lean">Lean formalization</a>.</span></li>
 </ul>
 
-<h2>Research papers</h2>
+<h2>Preprints</h2>
 <ul>
   <li><a href="https://arxiv.org/abs/2608.10028">Disproving the Petersen Coloring Conjecture: Theoretical Analysis and an Infinite Family of Counterexamples</a>,
     with Jan Goedgebeur, Jorik Jooken, Edita Máčajová, Davide Mattiolo and Giuseppe Mazzuoccolo,
@@ -95,6 +101,40 @@
   <li><a href="https://arxiv.org/abs/2501.05348">Graph Puzzles I.1: Oriented Berge-Fulkerson Conjecture</a>,
     <span class="venue">preprint, 2025.</span></li>
 </ul>
+
+<details class="section">
+<summary><h2>Graph Puzzles (click to expand)</h2></summary>
+
+<h3 id="graph-puzzles-i">Graph Puzzles I</h3>
+<ul>
+  <li><a href="https://arxiv.org/abs/2501.05348">Graph Puzzles I.1: Oriented Berge-Fulkerson Conjecture</a>,
+    <span class="venue">preprint, 2025.</span></li>
+</ul>
+
+<h3 id="graph-puzzles-ii">Graph Puzzles II</h3>
+<ul>
+  <li><a href="https://arxiv.org/abs/2603.23328">Graph Puzzles II.1: Counterexamples to Jain's Second Unit Vector Flows Conjecture</a>,
+    <span class="venue">preprint, 2026.</span></li>
+</ul>
+
+<h3 id="graph-puzzles-iii">Graph Puzzles III</h3>
+<ul>
+  <li><a href="https://arxiv.org/abs/2607.13225">Graph Puzzles III.1: A Proof of Sabidussi's Compatibility Conjecture</a>,
+    <span class="venue">submitted, 2026; Lean formalizations: <a href="https://github.com/gexahedron/sabidussi-lean">sabidussi-lean</a>, <a href="https://github.com/gexahedron/graph-puzzles-lean">graph-puzzles-lean</a>.</span></li>
+  <li><a href="/graph_theory/strong_five_cycle_double_covers.pdf">Graph Puzzles III.2-preview: Strong five-cycle double covers</a>,
+    <span class="venue">Zenodo working paper, 2026; <a href="https://github.com/gexahedron/graph-puzzles-lean">Lean formalization</a>.</span></li>
+  <li><a href="/graph_theory/defect3_oriented_5cdc.pdf">Graph Puzzles III.3-preview: Oriented five-cycle double covers of snarks with colouring defect three</a>,
+    <span class="venue">Zenodo working paper, 2026; <a href="https://github.com/gexahedron/graph-puzzles-lean">Lean formalization</a>.</span></li>
+</ul>
+
+<h3 id="graph-puzzles-iv">Graph Puzzles IV</h3>
+<ul>
+  <li><a href="/graph_theory/unique_factorisation_snarks.pdf">Graph Puzzles IV.1-preview: Factorisations of hypohamiltonian and permutation snarks</a>,
+    <span class="venue">Zenodo working paper, 2026; <a href="https://github.com/gexahedron/graph-puzzles-lean">Lean formalization</a>.</span></li>
+  <li><a href="/graph_theory/two_circuit_four_perfect_matchings.pdf">Graph Puzzles IV.2-preview: Four perfect matchings for snarks with a two-circuit 2-factor</a>,
+    <span class="venue">Zenodo working paper, 2026; <a href="https://github.com/gexahedron/graph-puzzles-lean">Lean formalization</a>.</span></li>
+</ul>
+</details>
 
 <h2>House of Graphs entries</h2>
 <ul class="hog">
