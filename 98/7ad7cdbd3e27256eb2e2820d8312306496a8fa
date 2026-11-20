@@ -1,0 +1,21 @@
+research/index.html
+  s_0fde374599574c::t_a8a78efc345622 141-143
+research/hog/58251.svg
+  s_0fde374599574c::t_371918a6213f87 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "987ad7cdbd3e27256eb2e2820d8312306496a8fa",
+  "prompts": {},
+  "sessions": {
+    "s_0fde374599574c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0f840a40-fc87-4762-96ce-f116aad6a6a8",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "gexahedron <3427698+gexahedron@users.noreply.github.com>"
+    }
+  }
+}
