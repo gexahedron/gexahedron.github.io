@@ -1,0 +1,33 @@
+research/hog/58259.svg
+  s_f0fc6371e9127b::t_79baad31a0f789 1
+research/index.html
+  s_0fde374599574c::t_87b75fb19fed63 141-149
+research/hog/58258.svg
+  s_0fde374599574c::t_14115e36283678 1
+research/hog/58260.svg
+  s_0fde374599574c::t_9024fa775ab304 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9c69df1b8327694aeecdf0c14fedadcc35efba5d",
+  "prompts": {},
+  "sessions": {
+    "s_0fde374599574c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0f840a40-fc87-4762-96ce-f116aad6a6a8",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "gexahedron <3427698+gexahedron@users.noreply.github.com>"
+    },
+    "s_f0fc6371e9127b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a211ee-8023-7351-8e11-2106d899eb53",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "gexahedron <3427698+gexahedron@users.noreply.github.com>"
+    }
+  }
+}
